@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="film">
+        <item>Jurassic World</item>
+        <item>Spy</item>
+        <item>San Andreas</item>
+        <item>Pitch Perfect 2</item>
+        <item>Insidious : Chapter 3</item>
+        <item>Entourage</item>
+        <item>Mad Max : Fury Road</item>
+        <item>Avengers Age Of Ultron</item>
+        <item>Tomorrowland</item>
+        <item>Love and Mercy</item>
+    </string-array>
+</resources>
