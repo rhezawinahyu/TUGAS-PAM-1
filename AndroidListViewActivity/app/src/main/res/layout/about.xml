@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_blue_grey_800"
+    android:theme="@android:style/Theme.Holo.NoActionBar"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/material_blue_grey_950">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:paddingLeft="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_material_light"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rheza Winahyu"
+        android:paddingTop="100dp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/primary_material_light"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="672012060"
+        android:paddingLeft="115dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/primary_material_light"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fakultas Teknologi Informasi"
+        android:textStyle="bold"
+        android:paddingLeft="40dp"
+        android:textSize="25dp"
+        android:textColor="@color/primary_material_light"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text="Call Me"
+        android:background="@color/material_blue_grey_900"
+        android:textColor="@color/primary_material_light"
+        />
+
+</LinearLayout>
