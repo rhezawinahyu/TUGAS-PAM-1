@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/highlighted_text_material_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/highlighted_text_material_light"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Insert Film"
+            android:textSize="35dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/frst_txtV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama        "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/frst_editTxt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/frst_txtV" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/lst_txtV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating       "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/last_editTxt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lst_txtV" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre        "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/edittext_size"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release    "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/edittext_pay"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/produce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration   "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/edittext_produce"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/produce" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country     "
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/edittext_genre"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/genre" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:text="Save"
+        android:textColor="#000" />
+
+</LinearLayout>

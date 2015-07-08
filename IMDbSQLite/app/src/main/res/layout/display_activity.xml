@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/highlighted_text_material_dark">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/highlighted_text_material_light"
+        android:id="@+id/atas"
+        android:gravity="center_vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Daftar Film"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+
+            android:layout_height="match_parent"
+            android:src="@drawable/abc_btn_check_to_on_mtrl_015"
+            android:id="@+id/btnAdd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/keluar1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_delete" />
+
+    <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/atas"
+        android:background="#8DB3E1" />
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="#8DB3E1"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/atas"
+        android:layout_above="@id/keluar1"
+        />
+
+</RelativeLayout>

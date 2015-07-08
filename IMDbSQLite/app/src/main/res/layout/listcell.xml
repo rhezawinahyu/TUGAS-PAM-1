@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/highlighted_text_material_dark"
+    >
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView"
+        android:src="@android:drawable/sym_def_app_icon"
+        />
+
+    <TextView
+        android:id="@+id/txt_fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Nama App  : "
+        android:layout_toRightOf="@id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/txt_lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Jenis App   : "
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txt_fName"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Ukuran        : "
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_lName"
+        android:layout_toRightOf="@id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/txt_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Bayar          : "
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_size"
+        android:layout_toRightOf="@id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/txt_produce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Produce     : "
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_pay"
+        android:layout_toRightOf="@id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/txt_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#ffff"
+        android:layout_marginLeft="5dp"
+        android:text="Genre         : "
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_produce"
+        android:layout_toRightOf="@id/imageView"
+        />
+
+</RelativeLayout>
